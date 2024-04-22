@@ -5,6 +5,8 @@
     justify-content: end;
     background-color: #ffffff;
     padding: 0.7rem;
+    color: #9e9e9e;
+    gap: 10px;
 }
 
 .title span{
@@ -12,6 +14,19 @@
     margin-left: 0.8em;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.logo-usuario{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #9e9e9e;
+}
+
+.logo-usuario img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
 }
 
 @media screen and (max-width: 600px) {

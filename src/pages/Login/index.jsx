@@ -14,6 +14,7 @@ export default function Login() {
     async function login(e) {
         e.preventDefault();
 
+        //VALIDAÇÃO DE CAMPOS VAZIOS
         if (user.current?.value === '' || password.current?.value === '') {
             toast.warning('E-mail ou Senha Vazios!');
             return;
@@ -25,13 +26,7 @@ export default function Login() {
                 password: password.current?.value,
             });
 
-            const user = {
-                email: user.current?.value,
-                password: password.current?.value,
-                token: response.data.token
-            }
-
-            localStorage.setItem('login', user);
+            localStorage.setItem('login', response.data.token);
 
             toast.success('Bem vindo !')
 
@@ -53,13 +48,13 @@ export default function Login() {
                         <span>Supply Chain | Industrial | Systems</span>
                     </div>
                 </div>
-                <div className="box-form-login"> {/* cinza claro */}
-                    <div className='form-painel'> {/* branco */}
-                        <div className='form-box'> {/* cinza claro */}
+                <div className="box-form-login"> 
+                    <div className='form-painel'> 
+                        <div className='form-box'> 
+                            <div className='logo-painel'>
+                                <img src={Logo} />
+                            </div>
                             <form onSubmit={login}>
-                                <div className='logo-painel'>
-                                    <img src={Logo} />
-                                </div>
                                 <label>LOGIN</label>
                                 <input
                                     className='input-form'
@@ -75,12 +70,11 @@ export default function Login() {
                                 />
 
                                 <button type='submit'>LOGAR</button>
-
-                                <div className='actions-login'>
-                                    <a href='#'>ESQUECI MINHA SENHA</a>
-                                    <a href='#'>CADASTRE-SE</a>
-                                </div>
                             </form>
+                            <div className='actions-login'>
+                                <a href='#'>ESQUECI MINHA SENHA</a>
+                                <a href='#'>CADASTRE-SE</a>
+                            </div>
                         </div>
                     </div>
                 </div>

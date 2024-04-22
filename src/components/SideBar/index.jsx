@@ -16,11 +16,10 @@ export default function SideBar() {
                 </button>
             </div>
 
-            <Link to={"/dashboard"}>
+            <Link to={''}>
                 <span>Usuários</span>
                 <MdArrowForwardIos size={24} />
             </Link>
-
         </div>
     )
 }

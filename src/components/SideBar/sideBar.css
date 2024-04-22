@@ -60,6 +60,10 @@
 }
 
 .content {
+    margin: 0px 10px 0px 210px;
+}
+
+.title{
     margin-left: 200px;
 }
 
