@@ -5,17 +5,21 @@ import Modal from '../../components/Modal'
 import { ToastContainer, toast } from 'react-toastify';
 import SideBar from '../../components/SideBar';
 
-{/* REACT ICONS */}
+{/* REACT ICONS */ }
 import { IoInformation } from "react-icons/io5";
 import { AiFillMedicineBox } from "react-icons/ai";
 import { MdOutlineArrowBackIos, MdOutlineArrowForwardIos } from "react-icons/md";
 import { IoIosSearch } from "react-icons/io";
 
 export default function ListPage() {
-  return(
+  return (
     <div>
-      <SideBar/>
-      <h1>OI</h1>
+      <SideBar />
+      <div className='content'>
+        <Title name={"Chamados"}>
+          <AiFillMedicineBox size={25} />
+        </Title>
+      </div>
     </div>
   )
 }

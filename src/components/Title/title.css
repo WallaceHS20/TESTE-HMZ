@@ -2,12 +2,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 1em auto;
-    border-radius: 5px;
-    background-color: #009879;
-    padding: 0.8rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 5px;
+    justify-content: end;
+    background-color: #ffffff;
+    padding: 0.7rem;
 }
 
 .title span{

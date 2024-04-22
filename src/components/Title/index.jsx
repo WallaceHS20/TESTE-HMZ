@@ -4,7 +4,9 @@ export default function Title({children, name}){
     return(
         <div className='title'>
             {children}
-            <span>{name}</span>
+            <div className='logo-usuário'>
+                
+            </div>
         </div>
     )   
 }
