@@ -1,0 +1,190 @@
+.container{
+  padding: 30px 55px;
+}
+
+main {
+  padding: 30px 30px 0px 30px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+}
+
+.filter{
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.filter label{
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.group-box{
+  display: flex;
+}
+
+.code-box{
+  width: 250px;
+  border: 1px solid #009879;
+  outline: none;
+  padding: 5px;
+}
+
+.icon-search{
+  background-color: #009879;
+  padding: 5px;
+  border: none;
+  transition: all ease-in 0.3s;
+}
+
+.icon-search:hover{
+  background-color: #0cb493;
+}
+
+table {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
+}
+
+table th {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 15px;
+}
+
+table tr {
+  background-color: #ffffff;
+  border: none;
+  padding: 0.5em;
+  transition: all 0.3s ease-in;
+  border-bottom: 1px solid #dddddd;
+}
+
+table td {
+  padding: 0.5em;
+  text-align: center;
+}
+
+table td .action {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+table td .action svg {
+  vertical-align: middle;
+}
+
+table td .badge {
+  padding: 8px;
+  border-radius: 4px;
+  color: #FFF;
+}
+
+.pagination {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button {
+  width: 40px;
+  height: 30px;
+  margin: 0px 15px;
+  border: 1px solid transparent;
+  background-color: #009879;
+  transition: all 0.3s ease-in;
+}
+
+@media screen and (max-width: 600px) {
+
+  .container{
+    padding: 0px 0px;
+  }
+
+  main{
+    padding: 3px 10px;
+  }
+
+  .filter{
+    margin-top: 10px;
+  }
+
+  .code-box{
+    width: 180px;
+  }
+
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+
+  table thead {
+    border: none;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr {
+    border-bottom: 2px solid #DDD;
+    display: block;
+    margin-bottom: 0.20em;
+  }
+
+  table td {
+    border-bottom: 1px solid #DDD;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+    margin: 2px;
+  }
+
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td .badge {
+    padding: 3px;
+  }
+}

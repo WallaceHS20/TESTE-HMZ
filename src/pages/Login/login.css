@@ -1,0 +1,172 @@
+/* DIV PAI LOGIN */
+.container-login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+}
+
+/* DIV PAI LOGIN */
+.login-painel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(192, 192, 192);
+}
+
+/* painel principal esquerdo */
+.box-title-login {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+}
+
+.box-title {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-title h1 {
+    color: rgb(129, 129, 129);
+    font-size: 70px;
+    font-weight: 300;
+    margin-top: 30px;
+    letter-spacing: 4px;
+}
+
+/* painel descrição */
+.box-description {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-description span {
+    color: rgb(129, 129, 129);
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+/* PAINEL DE LOGIN */
+.box-form-login {
+    background-color: rgb(173, 173, 173);
+    width: 50%;
+    height: 96%;
+    max-height: 100vh;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 17px solid rgb(192, 192, 192);
+}
+
+.form-painel {
+    background-color: rgb(243, 240, 240);
+    width: 100%;
+    height: 100%;
+}
+
+.form-box {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box form{
+    background-color: rgb(241, 241, 241);
+    width: 92%;
+    height: 92%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.logo-painel{
+    width: 300px;
+    padding: 20PX;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25PX;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.login-painel img{
+    width: 180px;
+}
+
+.login-painel label{
+    margin-top: 5em;
+    font-size: 20px;
+    color: rgb(158, 158, 158);
+    font-weight: 400;
+}
+
+.login-painel input{
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgb(129, 129, 129);
+    width: 70%;
+    padding: 8px 18px;
+    border: none;
+}
+
+.login-painel input::placeholder{
+    color: rgb(168, 168, 168);
+    font-weight: 100;
+}
+
+.login-painel button{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 45px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(129, 129, 129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in 0.3s;
+}
+
+.login-painel button:hover{
+    background-color: rgb(182, 182, 182);
+    color: rgb(255, 255, 255);
+}
+
+.actions-login{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+}
+
+.actions-login a{
+    margin: 0px 30px 50px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(199, 199, 199);
+    border-bottom: 1px solid transparent;
+    transition: all ease-in 0.2s;
+}
+
+.actions-login a:hover{
+    border-color: rgb(129, 129, 129);;
+}
