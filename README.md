@@ -5,7 +5,7 @@
 https://www.linkedin.com/in/wallace-honorato-b15a3b1a2/
 ~~~~
 
-Solução desenvolvida para o desafio em desenvolver uma aplicação em React de um bulário eletrônico, que terá como finalidade apresentar e consultar bulas de medicamentos.
+Solução desenvolvida para o desafio em desenvolver uma aplicação em React de CRUD de usuários.
 
 ## Tecnologias 
 
@@ -17,21 +17,14 @@ Solução desenvolvida para o desafio em desenvolver uma aplicação em React de
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-## Resultado
-
-https://github.com/WallaceHS20/teste-desenvolvedor-frontend/assets/101594950/a22d8b1a-613b-452f-87f0-af6110d68178
-
 ## Instalação
 
 ### Clone o repositório
 ~~~git
-https://github.com/WallaceHS20/teste-desenvolvedor-frontend.git
+https://github.com/WallaceHS20/TESTE-HMZ.git
 ~~~~
 
 ### Acesse a pasta por seu terminal de preferência e instale as bibliotecas
-~~~CMD
-cd .\dotlib\
-~~~~
 
 ~~~node
 npm install
